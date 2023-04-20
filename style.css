@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Hanken Grotesk";
+}
+h1 {
+  color: hsl(241, 100%, 89%);
+  font-size: 20px;
+  font-weight: 700;
+}
+.progress {
+  width: 763px;
+  height: 470px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  box-shadow: 15px 15px 60px lightgray;
+  border-radius: 25px;
+}
+.left-container {
+  background: rgb(103, 67, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(103, 67, 255, 1) 0%,
+    rgba(49, 35, 250, 1) 95%
+  );
+  border-radius: 25px;
+  width: 50%;
+  padding: 35px;
+}
+.left-container h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.circle {
+  height: 213px;
+  width: 221px;
+  margin: auto;
+  background: rgb(53, 24, 132);
+  background: linear-gradient(
+    to top,
+    rgba(103, 67, 255, 1) 0%,
+    rgb(54, 35, 204) 99%
+  );
+  text-align: center;
+  border-radius: 50%;
+}
+.circle h2 {
+  padding-top: 25%;
+  color: #fff;
+  font-size: 65px;
+}
+.circle span {
+  font-size: 18px;
+  font-weight: 500;
+  color: lightgray;
+}
+.about-score {
+  color: #fff;
+  text-align: center;
+}
+.about-score h2 {
+  padding: 20px 0;
+  font-size: 30px;
+}
+.about-score p {
+  padding: 0 32px;
+  font-size: 18px;
+  font-weight: 500;
+  color: lightgrey;
+}
+.right-container {
+  width: 50%;
+  padding: 35px;
+  border-radius: 25px;
+}
+.right-container h1 {
+  color: #000;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.column {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 8px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.total_number {
+  display: flex;
+  flex-direction: row;
+}
+.status {
+  display: flex;
+}
+.status img {
+  margin-right: 10px;
+  margin-left: 2px;
+}
+.actual {
+  padding-right: 8px;
+  color: #000;
+  font-weight: 700;
+}
+.total {
+  color: grey;
+  font-weight: 700;
+}
+.btn {
+  background: linear-gradient(
+    180deg,
+    rgba(103, 67, 255, 1) 0%,
+    rgba(49, 35, 250, 1) 95%
+  );
+  color: white;
+  width: 99%;
+  border: none;
+  margin-top: 35px;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(49, 35, 250, 1) 95%,
+    rgba(103, 67, 255, 1) 0%
+  );
+}
+.attribution {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
