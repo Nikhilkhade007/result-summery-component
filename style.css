@@ -162,4 +162,7 @@ h1 {
   .right-container {
     width: 100%;
   }
+  .attribution {
+  top:945px;
+  }
 }
