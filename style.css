@@ -145,6 +145,7 @@ h1 {
   body {
     align-items: flex-start;
     justify-content: flex-start;
+    flex-direction: column;
   }
   .progress {
     width: 763px;
